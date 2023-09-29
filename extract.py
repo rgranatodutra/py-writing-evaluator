@@ -3,7 +3,7 @@ def read_writing(path: str) -> str | None:
         content = file.read()
         content_lines = len(content.split("\n"))
 
-        if content_lines in range(7, 30):
+        if content_lines in range(7, 31):
             return content
         else:
             print("A redação deve ter entre 7 e 30 linhas.")
