@@ -3,7 +3,7 @@ import os
 files = os.listdir("./extract")
 writings = [w for w in files if w.endswith(".txt")]
 
-def select_menu():
+def select_menu() -> str:
     options = ["Saír"] + writings
     is_running = True
     print(f'Selecione a redação que você deseja calcular a nota:')
