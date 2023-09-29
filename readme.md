@@ -34,4 +34,36 @@ Siga estas etapas para utilizar a aplicação:
 
 Agora você pode utilizar esta aplicação para avaliar redações de forma eficiente.
 
+## Instalando as Dependências
+
+Siga estas etapas para configurar o ambiente e instalar as dependências necessárias:
+
+1. Crie um ambiente virtual (venv) executando o seguinte comando:
+
+   ```
+   python -m venv venv
+   ```
+2. Ative o ambiente virtual:
+
+- No Windows:
+
+  ```
+  venv\Scripts\activate
+  ```
+
+- No macOS e Linux:
+
+  ```
+  source venv/bin/activate
+  ```
+
+3. Instale as dependências do projeto executando o seguinte comando:
+
+   ```
+   pip install -r requirements.txt
+   ```
+   
+Agora você tem o ambiente configurado e todas as dependências instaladas para executar o projeto.
+
 Aproveite!
+
